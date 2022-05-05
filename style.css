@@ -1,0 +1,88 @@
+/* font-family: 'Great Vibes', cursive; */
+/* <i class="fa-regular fa-square-minus"></i> */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: hsl(210, 36%, 96%);
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.title {
+  font-family: "Great Vibes", cursive;
+  color: #c59d5f;
+  font-size: 20px;
+  margin: 20vh 0 30px 0;
+}
+
+.questions {
+  width: 90vw;
+  max-width: 600px;
+}
+
+article {
+  background-color: white;
+  padding: 20px 30px 0 30px;
+  text-align: left;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.question h2 {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.btn {
+  margin-left: 20px;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  transform: rotate(90deg);
+}
+
+.fa-regular {
+  font-size: 25px;
+  color: #c59d5f;
+}
+
+.answer {
+  padding: 20px 0 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.answer p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: hsl(209, 22%, 49%);
+}
+
+.hidden {
+  display: none;
+}
